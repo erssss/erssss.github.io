@@ -97,12 +97,12 @@
 								<li>专业排名：30/161 18.6%</li>
 								<li>主要课程：四门高数（均分91）、编译原理（98）、操作系统（94）、并行程序设计（100）、机器学习及应用（98）、人工智能导论（93）、信息检索系统原理（99）
 								</li>
-
+								
 								<li>编程语言：熟悉C++、Python，比较熟悉Java、cuda，了解Matlab</li>
 
 								<li>四级：547 &nbsp; 六级：557</li>
-							</p>
-
+							</p> 
+							
 							<ul class="skill clear">
 								<h3>其他技能</h3>
 								<li>
@@ -268,7 +268,7 @@
 							<br>
 							<p>
 								<li>与其逃避不如克服。我知道我的rank是绝对的硬伤，但从来都知道这不是躺平的理由。</li>
-
+								
 							</p>
 							<!-- <div class="chatbox">
 								<div class="line loading"> <span></span>
@@ -299,8 +299,6 @@
 							<h2>本校实验室 DBIS 实习</h2>
 							<br>
 							<li>参与：论文阅读 & 综述撰写 & 组会 & 论文在写</li>
-							<br>
-							<iframe src="https://onedrive.live.com/embed?resid=BA9CE7030D560C3D%21274&amp;authkey=!AGUMphwBBH4_DwA&amp;em=2&amp;wdAr=1.7777777777777777" width="600px" height="350px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
 						</div>
 					</div>
 				</div>
@@ -314,18 +312,11 @@
 							<h2>基于 oneAPI 的大规模图计算异构加速框架设计 | 队长</h2>
 							<br>
 							<li>异构计算需要在 GPU 与 CPU 之间进行频繁的数据搬运，GPU
-								长时间处于忙等待状态，极大地影响了程序性能。针对此，我们发现图计算过程中应用程序总在一个较大的访存范围内是对图数据进行顺序的扫描。基于这一发现，我们通过<b>划分 GPU
-									显存来分别存储可复用数据及轮换数据</b>，以优化程序的访存行为，并基于 oneAPI 提出了一个通用的图计算框架。</li>
+								长时间处于忙等待状态，极大地影响了程序性能。针对此，我们发现图计算过程中应用程序总在一个较大的访存范围内是对图数据进行顺序的扫描。基于这一发现，我们通过划分 GPU
+								显存来分别存储可复用数据及其他数据，以优化程序的访存行为，并基于 oneAPI 提出了一个通用的图计算框架。</li>
 							<li>2022 年第 10 届 “英特尔杯” 全国并行挑战赛，并行基金奖</li>
 							<li>CCF Transactions on High Performance Computing 在投</li>
-							<br>
-							<iframe
-								src="https://onedrive.live.com/embed?resid=BA9CE7030D560C3D%21269&amp;authkey=%21AJ-fgLkmdfWc6VY&amp;em=2&amp;wdAr=1.7777777777777777"
-								width="600px" height="350px" align="center" frameborder="0">这是嵌入 <a target="_blank"
-									href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank"
-									href="https://office.com/webapps">Office</a> 提供支持。</iframe>
-
-							<br><br><br>
+							<br><br>
 
 
 							<h2>基于玻璃文物化学成分性质及风化情况的相关性研究 | 队长</h2>
@@ -338,27 +329,19 @@
 
 							<h2>支持全部 SysY 特性及代码优化的编译器构造 | 队长</h2>
 							<br>
-							<li>实现含有词法分析、语法分析、中间代码生成、机器代码生成（arm）阶段的<b>完整编译器</b>，可根据源代码编译生成相应的可执行程序。</li>
+							<li>实现含有词法分析、语法分析、中间代码生成、机器代码生成（arm）阶段的完整编译器，可根据源代码编译生成相应的可执行程序。</li>
 							<li>代码优化实现了 mem2reg、公共子表达式删除、常量折叠，在大赛阶段（进行中）目前实现了窥孔优化、强度削弱、常量传播、循环不变量外提。</li>
-							<li><a href="https://github.com/erssss/2023CompilerSpace">项目地址</a></li>
+							<li>[erssss/2023CompilerSpace (github.com)](https://github.com/erssss/2023CompilerSpace)
 							</li>
 							<br><br>
 
-							<h2>卷积神经网络并行化探索 | 个人项目</h2>
+							<h2>卷积神经网络并行化探索 | 个人组</h2>
 							<br>
-							<li><b>纯 C++ 手工实现</b>，探索了卷积层前向传播及反向传播、池化层、激活层、全连接层的并行优化，最终实现了一个较为完整的卷积神经网络的并行化。并行优化方式包括
+							<li>纯 C++手工实现，探索了卷积层前向传播及反向传播、池化层、激活层、全连接层的并行优化，最终实现了一个较为完整的卷积神经网络的并行化。并行优化方式包括
 								SIMD（SSE/AVX/NEON）、PThread、openMP、MPI、CUDA
 								，不同并行方式同样尝试了逐层优化/逐通道优化等算法，并对不同优化方法进行了性能测试、分析比较。</li>
-							<li><a href="https://gitee.com/erssss/Para_works">项目地址</a></li>
+							<li>[并行作业库: 2022NKU 并行作业 (gitee.com)](https://gitee.com/erssss/Para_works)</li>
 							<br><br>
-
-							<h2>涉密数据库检测系统</h2>
-							<br>
-							<li>对于企业/政府数据库中意外录入的涉密信息，如果数据库存在泄露风险，将带来巨大的安全隐患。为了让数据库拥有者能够及时发现其中存在的涉密内容，并及时对其采取相应的措施，我们设计了一套完整的涉密数据库检测系统用以异步检测数据库中的涉密数据，并根据检测结果自动生成检测报告。</li>
-							<li>校级创新创业大赛创新赛优秀作品</li>
-							<li><a href="https://github.com/tlz777/Database-Security-Detection">项目地址</a></li>
-							<br>
-							<iframe src="https://onedrive.live.com/embed?resid=BA9CE7030D560C3D%21272&amp;authkey=!APbqw4cZ0N5LIso&amp;em=2&amp;wdAr=1.7777777777777777" width="600px" height="350px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office</a> 提供支持。</iframe>
 						</div>
 					</div>
 				</div>
@@ -388,8 +371,7 @@
 						<div class="introduct">
 							<h2>“老区调研传承红色基因，青春赋能助力乡村振兴”——赴河北阜平国情民情调研 | 队长</h2>
 							<br>
-							<li>实践围绕“革命老区”这一主体，以“党史缩影”为核心内涵，并以“青春”为聚焦点，与老区形成对照。实践队通过实地调研，深入了解阜平发展状况，分析红色文化圣地的发展需求，从而结合实际调研情况，总结革命老区的脱贫经验助力有效衔接乡村振兴战略。
-							</li>
+							<li>实践围绕“革命老区”这一主体，以“党史缩影”为核心内涵，并以“青春”为聚焦点，与老区形成对照。实践队通过实地调研，深入了解阜平发展状况，分析红色文化圣地的发展需求，从而结合实际调研情况，总结革命老区的脱贫经验助力有效衔接乡村振兴战略。</li>
 							<li>实践产出 3 篇报告、3 个视频、1 个游戏、相关媒体报道近 20 篇。</li>
 							<li>2021 年校级优秀实践队伍</li>
 							<li>2021 年校级优秀实践个人</li>
@@ -397,8 +379,7 @@
 
 							<h2>“回首家乡发展轨迹，展望十四五新征程”国情民情调研的团体实践 | 队长</h2>
 							<br>
-							<li>实践内容主要分为“深入乡村看振兴”与“重走故地温党史”两个部分。综合考虑到地理条件限制与疫情防控要求，一部分实践队员采取实地调研的形式，围绕“深入乡村看振兴”展开民情调研活动；另一部分则通过重走红色遗址与“云实践”相结合的形式
-							</li>
+							<li>实践内容主要分为“深入乡村看振兴”与“重走故地温党史”两个部分。综合考虑到地理条件限制与疫情防控要求，一部分实践队员采取实地调研的形式，围绕“深入乡村看振兴”展开民情调研活动；另一部分则通过重走红色遗址与“云实践”相结合的形式</li>
 							<li>2021 院级优秀实践队伍</li>
 							<br><br>
 
